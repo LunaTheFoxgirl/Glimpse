@@ -8,15 +8,17 @@ we do allow some new features here, if they are not too invasive.
 Otherwise, this branch is only for bug-fixes.
 
 
-Overview of Changes from GNU Image Manipulation Program to Glimpse 0.1.0 (Still being updated)
+Overview of Changes from GNU Image Manipulation Program to Glimpse 0.1.0
 ========================================================================
-Glimpse 0.1.0 is based on GNU Image Manipulation Program 2.10.12. It also uses the following dependency package versions:
+Glimpse 0.1.0 is based on GNU Image Manipulation Program 2.10.12.
+It also uses the following dependency package versions:
 * BABL 0.1.68
 * GEGL 0.4.16
 * MyPaint 1.3.0
 
 Graphical User Interface:
-* Translation files, code & build files updated so "Glimpse" is displayed throughout the UI, executables and packages
+* Translation files, code & build files updated so "Glimpse" is displayed
+throughout the UI, executables and packages
 * Changed the default UI behaviour for a cleaner look
 * Replaced application logo and window/taskbar icons
 * Replaced Windows save file icon
@@ -38,20 +40,26 @@ Code Improvements:
 * Created new Windows installer with the WiX toolset
 
 Developer Assistance:
-* Added BABL, GEGl and MyPaint dependencies as git submodules pre-set at the current tagged releases
-* Added Vagrant support so the code can be built & run without needing to install the prerequisites on the host system
-* Provided comprehensive build documentation for Windows and Linux at https://wiki.glimpse-editor.org/index.php?title=Building_Glimpse
+* Added BABL, GEGl and MyPaint dependencies as git submodules pre-set
+at the current tagged releases
+* Added Vagrant support so the code can be built & run without needing to
+install the prerequisites on the host system
+* Provided comprehensive build documentation for Windows and Linux at
+https://wiki.glimpse-editor.org/index.php?title=Building_Glimpse
 * Improved integration with the GNOME Builder IDE
-* Provided new code level documentation of our own (such as code of conduct, contributing guide, changelog, etc)
+* Provided new code level documentation of our own (such as code of conduct,
+contributing guide, changelog, etc)
 
 Quality of Life Improvements:
 * Removed legacy upstream documentation not needed for this fork
 * Changed installation & configuration files location to avoid conflicts
 * Changed cached and temporary files location to avoid conflicts
-* Changed process identifiers so they do not conflict with other running instances of the GNU Image Manipulation Program
+* Changed process identifiers so they do not conflict with other
+running instances of the GNU Image Manipulation Program
 * Added our own metadata for built and packaged executables
 * Removed "Color" icons (duplicates "Legacy")
 * Removed "Gray" UI theme (duplicates "System")
 * Updated or replaced GNOME-specific metadata files
 * Maintained compatibility with existing GNU IMP v2.x plug-ins
-* Refactored "Created with GIMP" notice to "Created with Glimpse" in the default save file metadata
+* Refactored "Created with GIMP" notice to "Created with Glimpse"
+in the default save file metadata
